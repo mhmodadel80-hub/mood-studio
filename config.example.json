@@ -1,0 +1,21 @@
+{
+  "project": {
+    "topic": "YOUR TOPIC HERE",
+    "target_words": 20000,
+    "style": "calm documentary voiceover, clear structure, no repetition, no filler",
+    "language": "English"
+  },
+  "ollama": {
+    "enabled": true,
+    "model": "llama3.1:8b",
+    "url": "http://localhost:11434",
+    "temperature": 0.7
+  },
+  "piper": {
+    "enabled": true,
+    "piper_exe": "./piper/piper",
+    "voice_model_path": "./voices/en_US-VOICE.onnx",
+    "voice_config_path": "./voices/en_US-VOICE.onnx.json",
+    "output_wav": "out/final.wav"
+  }
+}
